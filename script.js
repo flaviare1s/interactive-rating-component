@@ -14,9 +14,12 @@ function ranking() {
 
 function submit() {
     const submitButtonEl = document.querySelector('#submit')
+    const ratingStateEl = document.querySelector('.rating-state')
+    const thankyouStateEl = document.querySelector('.thankyou-state')
 
     submitButtonEl.addEventListener('click', () => {
-        alert('teste')
+        ratingStateEl.style.display = 'none'
+        thankyouStateEl.style.display = 'block'
     })
 }
 
