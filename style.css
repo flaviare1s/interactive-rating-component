@@ -28,7 +28,7 @@ main {
     margin: auto;
     background-image: linear-gradient(to bottom, hsl(213, 19%, 18%), hsl(213, 19%, 11%));
     border-radius: 20px;
-    padding: 30px;
+    padding: 25px;
 }
 
 #icon {
@@ -74,6 +74,7 @@ button {
     border: none;
     border-radius: 30px;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .attribution {
@@ -89,7 +90,7 @@ button {
     display: none;
 } 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:400px) {
     .main {
         width: 100vw;
     }
