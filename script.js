@@ -10,14 +10,14 @@ function ranking() {
             
             if (selectedButton) {
                 selectedButton.style.backgroundColor = '' 
-              }
+            }
 
-              number.style.backgroundColor = 'hsl(216, 12%, 54%)'
-              number.style.color = 'hsl(0, 0%, 100%)'
+            number.style.backgroundColor = 'hsl(216, 12%, 54%)'
+            number.style.color = 'hsl(0, 0%, 100%)'
           
-              selectedButton = number
-          })
+            selectedButton = number
         })
+    })
 }
 
 function submit() {
