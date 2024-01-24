@@ -10,10 +10,10 @@ body {
     background-color: hsl(216, 12%, 8%);
     font-family: 'Overpass', sans-serif;
     font-size: 15px;
+    color: hsl(0, 0%, 100%);
 }
 
 main {
-    width: 25vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -22,12 +22,21 @@ main {
 }
 
 .card {
-    width: 100%;
+    display: block;
+    width: 350px;
+    height: 350px;
     margin: auto;
     background-image: linear-gradient(to bottom, hsl(213, 19%, 18%), hsl(213, 19%, 11%));
     border-radius: 20px;
     padding: 30px;
 }
+
+#icon {
+    background-color: hsl(213, 19%, 22%);
+    border-radius: 50%;
+    padding: 12px;
+}
+
 
 .attribution {
     font-size: 11px;
@@ -36,4 +45,18 @@ main {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+.thankyou-state {
+    display: none;
+}
+
+@media screen and (max-width:600px) {
+    .main {
+        width: 100vw;
+    }
+
+    .card {
+        width: 90%;
+    }
 }
