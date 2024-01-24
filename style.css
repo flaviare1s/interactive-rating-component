@@ -89,6 +89,40 @@ button:hover {
     color: hsl(25, 97%, 53%);
 }
 
+.rating-state {
+    display: block;
+}
+
+.thankyou-state {
+    display: none;
+} 
+
+picture {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 22px;
+}
+
+.rating-container {
+    background-color: hsl(213, 19%, 19%);
+    color: hsl(25, 97%, 53%);
+    padding: 8px 20px;
+    border-radius: 30px;
+    width: 200px;
+    text-align: center;
+}
+
+.thankyou-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#rating {
+    text-align: center;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -97,10 +131,6 @@ button:hover {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
-
-.thankyou-state {
-    display: block;
-} 
 
 @media screen and (max-width:400px) {
     .main {
