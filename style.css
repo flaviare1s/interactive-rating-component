@@ -32,11 +32,49 @@ main {
 }
 
 #icon {
-    background-color: hsl(213, 19%, 22%);
+    background-color: hsl(213, 19%, 19%);
     border-radius: 50%;
     padding: 12px;
 }
 
+h2 {
+    padding-top: 20px;
+}
+
+.text {
+    padding: 10px 0px;
+    color: hsl(217, 12%, 63%);
+}
+
+#numbers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+.number {
+    background-color: hsl(213, 19%, 19%);
+    border-radius: 50%;
+    padding: 12px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: hsl(217, 12%, 63%);
+    cursor: pointer;
+}
+
+button {
+    width: 100%;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 12px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 10px;
+}
 
 .attribution {
     font-size: 11px;
@@ -49,7 +87,7 @@ main {
 
 .thankyou-state {
     display: none;
-}
+} 
 
 @media screen and (max-width:600px) {
     .main {
