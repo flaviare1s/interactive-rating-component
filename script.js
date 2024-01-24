@@ -6,7 +6,7 @@ function ranking() {
     numberRankingEl.forEach((number, index) => {
         number.addEventListener('click', () => {
             ratingEl.innerHTML = `${index + 1}`
-            number.style.backgroundColor = 'hsl(216, 12%, 54%)'
+            number.style.backgroundColor = 'hsl(25, 97%, 53%)'
             number.style.color = 'hsl(0, 0%, 100%)'
         })
     })
