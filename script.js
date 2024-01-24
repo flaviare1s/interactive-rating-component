@@ -10,13 +10,20 @@ function ranking() {
             ratingEl.innerHTML = `${index + 1}`
         })
     })
+}
 
+function submit() {
+    const submitButtonEl = document.querySelector('#submit')
+
+    submitButtonEl.addEventListener('click', () => {
+        alert('teste')
+    })
 }
 
 
 function main() {
     ranking()
-
+    submit()
 }
 
 main()
